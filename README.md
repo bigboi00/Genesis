@@ -18,5 +18,10 @@ One of the main challenges we encountered during the development of Genesis was 
 ## Conclusion
 In conclusion, the Genesis project represents our commitment to harnessing the power of AI to foster meaningful connections and support human well-being in the digital age. Through continuous innovation and collaboration, we aim to further enhance the Genesis platform and continue making a positive difference in the lives of our users.
 
+ATTENTION
+Goes to lib/const.dart, change the api key to yours.
+![image](https://github.com/bigboi00/Genesis/assets/105599258/2a7cd5b5-e23a-46c9-8218-c283545f5e46)
+
+
 Thank you for joining us on this journey!
 
