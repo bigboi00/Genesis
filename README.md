@@ -1,4 +1,5 @@
 # Genesis Project
+![document (1)](https://github.com/bigboi00/Genesis/assets/105599258/eca5209a-5e08-4802-94b5-c0c1cc805cfb)
 
 ## Introduction
 Welcome to the Genesis project, a revolutionary AI chat friend app powered by Gemini API. Genesis aims to provide users with a unique and engaging digital companionship experience, offering a range of functionalities designed to enhance mental, emotional, and social well-being.
@@ -22,6 +23,8 @@ ATTENTION
 Goes to lib/const.dart, change the api key to yours.
 ![image](https://github.com/bigboi00/Genesis/assets/105599258/2a7cd5b5-e23a-46c9-8218-c283545f5e46)
 
+## How to Run Flutter on VS Code
+https://docs.flutter.dev/tools/vs-code
 
 Thank you for joining us on this journey!
 
