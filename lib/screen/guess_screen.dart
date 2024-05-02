@@ -68,7 +68,8 @@ class _GuessingGameScreenState extends State<GuessingGameScreen> {
       });
       final gemini = Gemini.instance;
       gemini
-          .text("I want u to roleplay as a character called Mei, gender: Female, ,age: 35, reply the message only. Message:  What Mei think about this image? $imageContents")
+          .textAndImage(text: "I want u to roleplay as a character called Mei, gender: Female, ,age: 35, reply the message and image only. Message:  What Mei think about this image?",
+           images: [_image!.readAsBytesSync()])
           .then((value) {
         if (_isMounted) {
           setState(() {

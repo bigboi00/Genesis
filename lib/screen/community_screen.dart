@@ -21,7 +21,7 @@ class _CommunityScreenState extends State<CommunityScreen> {
   void initState() {
     super.initState(); 
      
-    _timer = Timer.periodic(const Duration(seconds: 30), (timer) {
+    _timer = Timer.periodic(const Duration(minutes: 30), (timer) {
       generateGeminiPost(); // Generate a Gemini post every 30 minutes
     });
     loadPosts(); 
@@ -65,6 +65,7 @@ void generateGeminiPost() {
     if (postJsonList != null) {
       setState(() {
         posts = postJsonList.map((jsonString) => PostCard.fromJson(json.decode(jsonString))).toList();
+        _timer.cancel();
       });
     }
   }
